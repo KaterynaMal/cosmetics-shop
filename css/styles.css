@@ -1,5 +1,55 @@
+:root{
+--primary-text-color: #000000;
+--navigation-text-color: #6C6C6C;
+--light-text-color: #ffffff;
+--coloring-text-color: #56FFFF;
+--accent-color: var(--primary-text-color);
+--background-color: #ffffff;
+--background-bottom-color: #000000;
+--secondary-font-family: 'Nanum Gothic', sans-serif;
+}
 
+body {
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+font-family: 'Kulim Park', sans-serif;
+font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    line-height: 1,66;
+
+}
 
 .list {
     list-style: none;
+}
+
+header {
+    font-family: var(--secondary-font-family);
+}
+
+.logo {
+    
+    font-size: 30px;
+        line-height: 1,2;
+}
+
+.nav-list {
+    
+    color: var(--navigation-text-color);
+    font-size: 16px;
+        line-height: 1,19;
+}
+
+.site-addres {
+    
+    font-size: 12px;
+        line-height: 1,17;
+}
+
+.title {
+    font-family: var(--secondary-font-family);
+    font-size: 46.4px;
+        line-height: 1,22;
 }
