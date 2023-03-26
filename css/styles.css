@@ -13,6 +13,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--background-color);
 font-family: 'Kulim Park', sans-serif;
+font-style: normal;
 font-weight: 400;
     font-size: 15px;
     letter-spacing: -0.01em;
@@ -53,3 +54,35 @@ header {
     font-size: 46.4px;
         line-height: 1,22;
 }
+
+.product {
+    font-weight: 700;
+        font-size: 20px;
+        line-height: 1,15;
+}
+
+.product-description {
+    font-size: 14px;
+}
+
+.propouse-item.first {
+
+font-size: 34px;
+
+color: var(--light-text-color);
+}
+
+.propouse-item {
+   
+
+    font-weight: 600;
+        font-size: 26px;
+        line-height: 1,66;
+        color: var(--light-text-color);
+}
+
+span {
+    color: var(--coloring-text-color);
+}
+
+
