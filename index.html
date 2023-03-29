@@ -10,55 +10,73 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@400;600;700&family=Nanum+Gothic&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <!--Site head-->
     <header>
-        <div class="header-nav">
+        <div class="container header-nav">
+        
         <a class="logo" href="Logo">Logo</a>
 
         <ul class="list nav-list">
-            <li class="nav-item">
-                <a href="Home1">Home1</a>
+            <li class="nav">
+                <a  class="nav-item" href="Home1">Home1</a>
             </li>
-            <li class="nav-item">
-               <a href="Home2">Home2</a>
+            <li class="nav">
+               <a  class="nav-item" href="Home2">Home2</a>
             </li>
-            <li class="nav-item">
-               <a href="Home3">Home3</a>
+            <li class="nav">
+               <a  class="nav-item" href="Home3">Home3</a>
             </li>
-            <li class="nav-item">
-               <a href="Home4">Home4</a>
+            <li class="nav">
+               <a  class="nav-item" href="Home4">Home4</a>
             </li>
-            <li class="nav-item">
-               <a href="Home5">Home5</a>
+            <li class="nav">
+               <a  class="nav-item" href="Home5">Home5</a>
             </li>
-            <li class="nav-item">
-               <a href="Home6">Home6</a>
+            <li class="nav">
+               <a  class="nav-item" href="Home6">Home6</a>
             </li>
         </ul>
         </div>
 
-        <p class="site-addres">
-            <a href="Cosmetic.com.vn">Cosmetic.com.vn</a>
-        </p>
-        <h1 class="title">Best Beauty items</h1>
-        <p>lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise
-        en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée.</p>
-
+       
+    
     </header>
 
+
     <main>
-        <section class="products">
+        <!--Baner-->
+        <section class="section baner">
+            <div class="container">
+        <p>
+            <a class="site-addres" href="Cosmetic.com.vn">Cosmetic.com.vn</a>
+        </p>
+        <h1 class="title">Best Beauty items</h1>
+        <p>lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une
+            mise
+            en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée.
+        </p>
+        </div>
+        </section>
+
+        <!--Products cards-->
+        <section class="section products">
+            <div class="container">
             <h2 class="title">Recent Production</h2>
             <p>
-                lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise
-                en page, le texte définitif venant remplacer le faux-texte dès qu'il
+                lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire
+                pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il
             </p>
 
             <ul class="list product-cards">
-                <li class="product-item">
-                    <article>
-                    <img src="" alt="">
+                <li>
+                    <article class="product-item">
+                    <img class="img" src="./images/unsplash_51sGDpm5S78-2.jpg" alt="product1" width="297">
                     <div class="product-card">
                         <h3 class="product">Production 1</h3>
                         <p class="product-description">lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée</p>
@@ -68,7 +86,7 @@
                 </li>
                 <li class="product-item">
                     <article>
-                    <img src="" alt="">
+                    <img class="img" src="./images/unsplash_NwAPSDTmxmk-2.jpg" alt="product2" width="297">
                     <div class="product-card">
                         <h3 class="product">Production 2</h3>
                         <p class="product-description">lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée</p>
@@ -78,7 +96,7 @@
                 </li>
                 <li class="product-item">
                     <article>
-                    <img src="" alt="">
+                    <img class="img" src="./images/unsplash_8ZKwW-2SR28-3.jpg" alt="product3" width="297">
                     <div class="product-card">
                         <h3 class="product">Production 3</h3>
                         <p class="product-description">lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée</p>
@@ -88,7 +106,7 @@
                 </li>
                 <li class="product-item">
                     <article>
-                    <img src="" alt="">
+                    <img class="img" src="./images/unsplash_BHOv_mdf4Bo-2.jpg" alt="product4" width="297">
                     <div class="product-card">
                         <h3 class="product">Production 4</h3>
                         <p class="product-description">lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée</p>
@@ -97,34 +115,42 @@
                     </article>
                 </li>
             </ul>
+            </div>
         </section>
 
-        <section>
+        <!--Propouse baners-->
+        <section class="section propouse">
+            <div class="container">
+            <h1></h1>
             <ul class="list propouse">
                 <li class="propouse-item first">
                     
-                    <a href="">
-                        <img src="" alt="">
-                    
+                    <a class="link" href="">
+                        
+                    <div class="describe first">
                     <p>Upto</p>
                     <p><span>30% Off</span></p>
+                    </div>
+                    <div class="describe first down">
                     <p>In Skin
                     Production</p>
+                    </div>
+
                     </a>
                     
                 </li>
-                <li class="propouse-item">
-                    <a href="">
-                        <img src="" alt="">
+                <li class="propouse-item second">
+                    <a class="link"href="">
+                            
                     
                     <p>Beautiful</p>
                     <p><span>women dress</span></p>
                     <p>Collection</p>
                     </a>
                 </li>
-                <li class="propouse-item">
-                    <a href="">
-                        <img src="" alt="">
+                <li class="propouse-item third">
+                    <a class="link" href="">
+                            
                     
                     <p>Many</p>
                     <p><span>Production</span></p>
@@ -132,12 +158,14 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
 
     </main>
 
+    <!--Site footer-->
     <footer>
-        <section>
+        <div class="container">
             <h4 class="title">
                 join our maning list
             </h4>
@@ -146,7 +174,10 @@
                 en page, le texte définitif venant remplacer le faux-texte dès qu'il
             </p>
 
-            <button class=""></button>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Email Address</a>
+            
+
+            <button class="">Send</button>
 
             <ul class="list social-list">
                 <li class="social-items">
@@ -166,7 +197,7 @@
                 </li>
 
             </ul>
-        </section>
+        </div>
 
     </footer>
 

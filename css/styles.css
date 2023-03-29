@@ -11,78 +11,258 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--background-color);
+    background: #E5E5E5;
 font-family: 'Kulim Park', sans-serif;
 font-style: normal;
 font-weight: 400;
     font-size: 15px;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    line-height: 1,66;
+    line-height: 25px;
+
+    margin: 0;
+    
 
 }
 
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 1512px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: var(--background-color);
+    
+    
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+
+
 .list {
+    display: flex;
     list-style: none;
 }
 
+
 header {
+    
     font-family: var(--secondary-font-family);
+} 
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 480px;
 }
 
+
+
 .logo {
+    padding-top: 45px;
+    margin-right: 320px;
+    
     
     font-size: 30px;
-        line-height: 1,2;
+        line-height: 36px;
+        text-decoration: none;
+        color: var(--primary-text-color);
 }
 
 .nav-list {
-    
-    color: var(--navigation-text-color);
+    display: flex;
+   
+    padding-top: 45px;
     font-size: 16px;
-        line-height: 1,19;
+        line-height: 19px;
+        
 }
 
-.site-addres {
+.nav-item.current {
+    color: var(--accent-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--accent-color);
+}
+
+.nav-item {
+    text-decoration: none;
+    color: var(--navigation-text-color);
     
+}
+
+.nav:not(:last-child) {
+    margin-right: 32px;
+    text-decoration: none;
+        color: var(--navigation-text-color);
+}
+
+.nav:last-child {
+    margin-right: 520px;
+}
+
+
+
+
+.site-addres {
+    display: flex;
+    margin-bottom: 12px;
     font-size: 12px;
-        line-height: 1,17;
+        line-height: 14px;
+        text-decoration: none;
+        color: var(--primary-text-color);
+}
+
+.baner p {
+    padding-bottom: 12px;
 }
 
 .title {
     font-family: var(--secondary-font-family);
     font-size: 46.4px;
-        line-height: 1,22;
+        line-height: 56px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
 }
 
 .product {
     font-weight: 700;
         font-size: 20px;
-        line-height: 1,15;
+        line-height: 23px;
+        margin-bottom: 5px;
+}
+
+.products .title {
+    padding-top: 42px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.product-cards {
+    display: flex;
+    margin-right: -28px;
+}
+
+.product-card {
+    width: 297px;
+   
+}
+
+.product-item {
+    margin-right: 28px;
+    flex-basis: calc((100% - 112px) / 4);
+}
+
+.products p {
+    margin-bottom: 42px;
+    
+    text-align: center;
 }
 
 .product-description {
     font-size: 14px;
 }
 
-.propouse-item.first {
+.link {
+    display: block;
+    text-decoration: none;
 
+}
+
+.propouse .link {
+    
+    color: var(--light-text-color);
+}
+
+.section.propouse {
+display: flex;
+}
+
+.list.propouse {
+    display: block;
+   
+}
+
+.propouse-item.second,
+.propouse-item.third {
+  display: block;
+
+}
+
+.propouse-item.first .link{
+max-width: 628px;
+height: 628px;
 font-size: 34px;
+background-image: url(../images/unsplash_tnWjbdPmk1M-2.jpg);
+background-repeat: no-repeat;
+    
+    background-size: contain;
+    margin-bottom: 44px;
+    margin-right: 16px;
 
-color: var(--light-text-color);
+
+
+}
+
+.propouse-item.second .link {
+    background-image: url(..//images/unsplash_8ZKwW-2SR28-3.jpg);
+    max-width: 628px;
+    height: 306px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+     
+}
+
+.propouse-item.third .link {
+    max-width: 628px;
+        height: 306px;
+        background-image: url(..//images/unsplash_K2J98abBwLU-2.jpg);
 }
 
 .propouse-item {
+    
    
-
+display: block;
     font-weight: 600;
         font-size: 26px;
-        line-height: 1,66;
+        line-height: 56px;
         color: var(--light-text-color);
 }
 
 span {
     color: var(--coloring-text-color);
+}
+
+.describe.first {
+    padding-top: 11px;
+    padding-left: 15px;
+    margin-bottom: 377px;
+}
+
+.describe.first.down {
+    margin-bottom: 35px;
 }
 
 
