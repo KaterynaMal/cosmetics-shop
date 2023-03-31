@@ -39,7 +39,9 @@ font-weight: 400;
 h1,
 h2,
 h3,
+h4,
 p,
+pre
 ul {
     margin-top: 0;
     margin-bottom: 0;
@@ -61,12 +63,25 @@ ul {
 header {
     
     font-family: var(--secondary-font-family);
+    
 } 
+
+
 
 .header-nav {
     display: flex;
     align-items: center;
-    padding-bottom: 480px;
+
+    background-image: url(../images/unsplash_Nt-1ZqIAXgQ-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        background-size: cover;
+    
+        width: 1512px;
+        height: 683px;
+        padding: 0;
+   
 }
 
 
@@ -132,6 +147,18 @@ header {
     padding-bottom: 12px;
 }
 
+/*.header-baner-background {
+    background-image: url(../images/unsplash_Nt-1ZqIAXgQ-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        background-size: contain;
+        width: 1512px;
+        height: 683px;
+        padding: 0;
+        
+}*/
+
 .title {
     font-family: var(--secondary-font-family);
     font-size: 46.4px;
@@ -164,53 +191,131 @@ img {
 }
 
 .product-card {
+    color: var(--primary-text-color);
     width: 297px;
    
 }
 
 .product-item {
+
     margin-right: 28px;
     flex-basis: calc((100% - 112px) / 4);
 }
 
+.product-link:hover,
+.product-link:focus {
+background-color: #56FFFF;
+}
+
+
 .products p {
     margin-bottom: 42px;
     
-    text-align: center;
+   
 }
 
 .product-description {
     font-size: 14px;
+    line-height: 23px;
+    font-family: 'Kulim Park',
+        sans-serif;;
 }
 
+/*
 .link {
     display: block;
     text-decoration: none;
 
 }
+*/
 
 .propouse .link {
     
     color: var(--light-text-color);
 }
 
-.section.propouse {
+/*.section.propouse {
 display: flex;
 }
 
 .list.propouse {
-    display: block;
+    display: flex;
    
+}*/
+
+.container-propouse {
+    display: flex;
 }
 
-.propouse-item.second,
+/*.propouse-item.second,
 .propouse-item.third {
   display: block;
 
+}*/
+
+.link {
+    display: block;
+    height: inherit;
+    width: inherit;
+    text-decoration: none;
 }
 
-.propouse-item.first .link{
-max-width: 628px;
+.propouse-item .title {
+    font-family: 'Kulim Park',
+        sans-serif;
+    font-style: normal;
+        font-weight: 600;
+        font-size: 34x;
+        line-height: 56px;
+      margin-left: 15px;
+      padding-top: 11px;
+}
+
+.second .title,
+.third .title {
+    font-weight: 600;
+        font-size: 26px;
+        line-height: 43px;
+        padding-top: 29px;
+}
+
+
+.second-column {
+    margin-bottom: 377px;
+}
+
+.bottom-column {
+    width: 200px;
+}
+
+
+.second-propouse {
+text-align: right;
+
+}
+
+.column-first {
+    padding-bottom: 144px;
+   
+}
+
+.column-second,
+.column-third {
+    margin-right: 11px;
+}
+
+.for-hear {
+    text-align: right;
+    margin-right: 15px;
+    padding-top: 129px;
+}
+
+
+
+.propouse-item.first {
+    
+   
+min-width: 628px;
 height: 628px;
 font-size: 34px;
 background-image: url(../images/unsplash_tnWjbdPmk1M-2.jpg);
@@ -224,9 +329,10 @@ background-repeat: no-repeat;
 
 }
 
-.propouse-item.second .link {
+.propouse-item.second  {
+   
     background-image: url(..//images/unsplash_8ZKwW-2SR28-3.jpg);
-    max-width: 628px;
+    min-width: 628px;
     height: 306px;
     background-size: cover;
     background-position:center;
@@ -235,8 +341,12 @@ background-repeat: no-repeat;
      
 }
 
-.propouse-item.third .link {
-    max-width: 628px;
+
+.propouse-item.third  {
+position: relative;
+top: 322px;
+right: 628px;
+    min-width: 628px;
         height: 306px;
         background-image: url(..//images/unsplash_K2J98abBwLU-2.jpg);
 }
@@ -244,7 +354,7 @@ background-repeat: no-repeat;
 .propouse-item {
     
    
-display: block;
+/*display: block;*/
     font-weight: 600;
         font-size: 26px;
         line-height: 56px;
@@ -265,4 +375,15 @@ span {
     margin-bottom: 35px;
 }
 
+.title.footer {
+    padding-top: 91px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+footer pre {
+    margin-bottom: 22px;
+   text-align: center;
+  
+}
 
